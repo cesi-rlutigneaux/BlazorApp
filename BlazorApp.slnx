@@ -4,5 +4,6 @@
     <Deploy Solution="Debug|*" />
   </Project>
   <Project Path="BlazorApp.Models/BlazorApp.Models.csproj" />
+  <Project Path="BlazorApp.Services/BlazorApp.Services.csproj" />
   <Project Path="BlazorApp/BlazorApp.csproj" />
 </Solution>
