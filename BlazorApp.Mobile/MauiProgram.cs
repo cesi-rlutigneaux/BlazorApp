@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using BlazorApp.Services;
+using Microsoft.Extensions.Logging;
 
 namespace BlazorApp.Mobile
 {
@@ -15,9 +16,10 @@ namespace BlazorApp.Mobile
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
 
