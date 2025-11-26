@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="BlazorApp.Client/BlazorApp.Client.csproj" />
+  <Project Path="BlazorApp.Mobile/BlazorApp.Mobile.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="BlazorApp.Models/BlazorApp.Models.csproj" />
+  <Project Path="BlazorApp/BlazorApp.csproj" />
+</Solution>
