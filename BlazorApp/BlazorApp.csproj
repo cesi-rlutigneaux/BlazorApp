@@ -9,8 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorApp.Client\BlazorApp.Client.csproj" />
-    <ProjectReference Include="..\BlazorApp.Models\BlazorApp.Models.csproj" />
-    <ProjectReference Include="..\BlazorApp.Services\BlazorApp.Services.csproj" />
+    <ProjectReference Include="..\BlazorApp.Components\BlazorApp.Components.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0" />
   </ItemGroup>
 

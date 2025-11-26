@@ -64,6 +64,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BlazorApp.Components\BlazorApp.Components.csproj" />
       <ProjectReference Include="..\BlazorApp.Models\BlazorApp.Models.csproj" />
       <ProjectReference Include="..\BlazorApp.Services\BlazorApp.Services.csproj" />
     </ItemGroup>
